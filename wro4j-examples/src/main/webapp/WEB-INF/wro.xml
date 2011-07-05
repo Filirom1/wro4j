@@ -27,6 +27,7 @@
   
   <group name="placeholder">
     <css>/static/css/placeholder/*.css</css>
+    <css>classpath:com/mysite/myapplication/web/resources/placeholder/*.css</css>
   </group>
   
   <group name="all">

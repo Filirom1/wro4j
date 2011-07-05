@@ -23,7 +23,7 @@ import ro.isdc.wro.util.ObjectFactory;
 /**
  * @author Alex Objelean
  */
-public class CustomWroManager
+public class CustomWroManagerFactory
     extends BaseWroManagerFactory {
 
   /**
@@ -50,6 +50,7 @@ public class CustomWroManager
       public Properties create() {
         final Properties props = new Properties();
         props.put("GLOBAL_COLOR", "red");
+        props.put("env.imagePrefix", "test");
         return props;
       }
     });
